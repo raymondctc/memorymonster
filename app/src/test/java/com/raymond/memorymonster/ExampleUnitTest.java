@@ -1,4 +1,4 @@
-package com.example.runboy;
+package com.raymond.memorymonster;
 
 import org.junit.Test;
 

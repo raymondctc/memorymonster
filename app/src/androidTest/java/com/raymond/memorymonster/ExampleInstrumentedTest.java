@@ -1,4 +1,4 @@
-package com.example.runboy;
+package com.raymond.memorymonster;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.runboy", appContext.getPackageName());
+        assertEquals("com.raymond.memorymonster", appContext.getPackageName());
     }
 }

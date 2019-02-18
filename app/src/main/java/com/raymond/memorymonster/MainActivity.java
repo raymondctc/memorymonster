@@ -1,4 +1,4 @@
-package com.example.runboy;
+package com.raymond.memorymonster;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,14 +1,13 @@
-package com.example.runboy;
+package com.raymond.memorymonster;
 
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
-import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.Random;
 
-public class ServiceC extends Service {
+public class ServiceB extends Service {
 
     private ArrayList<String> strings = new ArrayList<>();
 
@@ -23,7 +22,7 @@ public class ServiceC extends Service {
                 while (true) {
                     s += "" + new Random().nextInt() + new byte[1024000];
 
-//                    Log.d("ServiceC", "run: " + s);
+//                    Log.d("ServiceB", "run: " + s);
 
                     strings.add(s);
                 }
